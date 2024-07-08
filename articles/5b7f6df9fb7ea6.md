@@ -3,7 +3,7 @@ title: "機械学習のための微分公式"
 emoji: "📈"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["math"]
-published: false
+published: true
 ---
 
 機械学習の理論で使われる微分公式を紹介します．不備等ありましたら指摘していただきますと幸いです．
