@@ -30,6 +30,7 @@ $$
 
 ## ベクトルと行列の絡んだ微分公式
 - 内積
+スカラの1次関数同様，係数が出てきます．
 
 $$
 \frac{\partial}{\partial \bm{x}} ( \bm{a}^T \bm{x} ) = \frac{\partial}{\partial \bm{x}} ( \bm{x}^T \bm{a} )= \bm{a}
@@ -44,6 +45,7 @@ $$
 :::
 
 - 1次形式
+こちらもスカラの1次関数同様，係数が出てきます．
 
 $$
 \frac{\partial}{\partial \bm{x}} ( A \bm{x} )= A
@@ -66,6 +68,7 @@ $$
 :::
 
 - 2次形式
+スカラの2次関数と似たような形で1次形式になります．行列 $A$ が対称行列なら2が現れ，より類似します．
 
 $$
 \frac{\partial}{\partial \bm{x}} ( \bm{x}^T A \bm{x} ) = (A + A^T) \bm{x}
@@ -82,6 +85,8 @@ $$
 $$
 
 :::
+
+- 2次形式 (係数の行列による微分)
 
 $$
 \frac{\partial}{\partial A} ( \bm{x}^T A \bm{x} ) = \bm{x} \bm{x}^T
